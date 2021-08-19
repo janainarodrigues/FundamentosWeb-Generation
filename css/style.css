@@ -1,0 +1,98 @@
+/* Estilos da pagina index.html */
+
+body{
+    background-color: rgba(224, 18, 243, 0.384);
+}
+.center{
+    text-align: center;
+}
+/*Texto com justificado*/
+.justify{
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;           /* quebra linha */
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container2 {
+    display: flex;
+    flex-flow: row;           /* quebra linha */
+    justify-content: center;
+    align-items: center;
+   
+}
+ /* Deixar a foto com formato rendondo*/
+.estilofoto {
+    width: 350px;                                                   /*largura da foto */
+    height: 350px;                                                  /*altura da foto */
+    margin-bottom: 20px;
+    border-radius: 30%;                                            /*deixar a foto no formato redondo*/
+    box-shadow: 7px 6px 7px #0105ff80, 7px 6px 7px #0631be00; /*sobreado da foto na cor azul*/
+  
+}
+
+.estilofoto:hover{
+    box-shadow: 7px 6px 7px #7e191980, 7px 6px 7px #0631be00; /*sobreado da foto ao clicar muda de cor para rosa*/
+}
+
+.center1{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0%;
+    font-weight: bold;
+}
+.center2{
+    text-align: center;
+    justify-content: center;
+   font-size: 15px;
+}
+
+/*Espaça,entp video e  linha das redes sociais */
+
+.espacomargem{
+    margin-bottom: 50px;
+
+}
+
+
+/* Redes sociais logo */
+.tm-social {
+    width: 30px;                                                   /*largura da foto */
+    height: 30px;                                                  /*altura da foto */
+    padding: 10px;  
+}
+
+#menu1 li{
+    display: inline;
+    padding: 15px;
+    text-decoration: blueviolet;
+}
+#menu1 li a{
+    text-decoration: blueviolet;
+    font-size: 16px;
+}
+
+#menu1 li a:hover{
+    color: rgb(11, 3, 12);
+}
+
+/* Tamamho da letra */
+.fontetexto{
+    padding:30px;
+}
+
+
+
+/*Estilos da pagina contato index.html*/
+
+.containercontato1 {
+    display: flex;
+    flex-flow: row;           /* quebra linha */
+    justify-content: center;
+    align-items: center;
+}
