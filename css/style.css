@@ -19,13 +19,6 @@ body{
    
 }
 
-.container2 {
-    display: flex;
-    flex-flow: row;           /* quebra linha */
-    justify-content: center;
-    align-items: center;
-   
-}
  /* Deixar a foto com formato rendondo*/
 .estilofoto {
     width: 350px;                                                   /*largura da foto */
@@ -54,7 +47,7 @@ body{
 
 /*Espaça,entp video e  linha das redes sociais */
 
-.espacomargem{
+.espacomargem-50{
     margin-bottom: 50px;
 
 }
@@ -90,9 +83,7 @@ body{
 
 /*Estilos da pagina contato index.html*/
 
-.containercontato1 {
-    display: flex;
-    flex-flow: row;           /* quebra linha */
-    justify-content: center;
-    align-items: center;
+/* Margem lateral entre dados de contato e endereço */
+.margemlateral-50{
+    margin-left: 50px;
 }
